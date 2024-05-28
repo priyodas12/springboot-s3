@@ -1,0 +1,11 @@
+spring:
+  application:
+   name: springboot-s3
+
+server:
+  port: 12220
+
+aws:
+  iam:
+    default:
+      role: your_iam_role
